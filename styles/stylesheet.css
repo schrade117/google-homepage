@@ -1,0 +1,41 @@
+div.center{
+    text-align:center; margin-top: 130px;
+}
+
+input[type=text]{
+    width: 600px; height: 20px; text-align: left; font-size: 15px; font-weight: 600;
+}
+
+div.search-form-box{
+    text-align: center; webkit-appearance: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+    border-color: lightgray;
+}
+
+ul.left li{
+    display: block;
+    width: 60px;
+    font-size: 15px;
+    background-color: lightgray; background-size: contain;
+    float: left;
+    padding: 10px;
+    margin-top: 400px;
+    margin-right: auto;
+}
+
+ul.right li{
+    display: block;
+    width: 60px;
+    font-size: 15px;
+    background-color: lightgray; background-size: contain;
+    float: right;
+    padding: 10px;
+    margin-top: 400px;
+    margin-left: auto;
+}
