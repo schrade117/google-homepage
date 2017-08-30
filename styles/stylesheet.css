@@ -1,5 +1,5 @@
 div.center{
-    text-align:center; margin-top: 130px;
+    text-align:center; padding-top: 200px;
 }
 
 input[type=text]{
@@ -24,9 +24,10 @@ ul.left li{
     font-size: 15px;
     background-color: lightgray; background-size: contain;
     float: left;
-    padding: 10px;
-    margin-top: 400px;
+    padding: 14px;
+    margin-top: 300px;
     margin-right: auto;
+    
 }
 
 ul.right li{
@@ -35,7 +36,27 @@ ul.right li{
     font-size: 15px;
     background-color: lightgray; background-size: contain;
     float: right;
-    padding: 10px;
-    margin-top: 400px;
+    padding: 14px;
+    margin-top: 300px;
     margin-left: auto;
+}
+
+a{
+    color: #544F4F;
+    font-style: normal;
+}
+
+a:link{
+   color: #544F4F;
+   font-style: normal;
+   text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    font-style: normal;
+    text-decoration: underline;
 }
